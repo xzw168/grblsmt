@@ -3,7 +3,7 @@
 #include "stm32f10x.h"
 #include "uartX.h"
 
-int main(void)
+int main1(void)
 {
   GPIO_PinRemapConfig(GPIO_Remap_SWJ_Disable, ENABLE);
   RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA1, ENABLE);
