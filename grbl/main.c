@@ -86,7 +86,7 @@ void USART1_Configuration(u32 BaudRate)
 
 int main(void)
 {
-	//while(1);
+	//while(1); 
 #if defined (STM32F103C8)
     GPIO_PinRemapConfig(GPIO_Remap_SWJ_Disable, ENABLE);
 #ifdef LEDBLINK
